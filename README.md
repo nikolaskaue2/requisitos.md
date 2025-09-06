@@ -5,14 +5,29 @@ RF1- O sistema deve possibilitar o cadastro de médicos com os seguintes dados: 
 RU2- Quero cadastrar o paciente
 RF2- O sistema deve possibilitar o cadastro do paciente com os seguintes dados: Nome Completo, Data de Nascimento, sexo, cpf, convênio
 
-RU3- Quero cadastrar a secretaria e demais colaboradores
+RU3- Quero cadastrar a secretária e demais colaboradores
 RF3- O sistema deve possibilitar o cadastro da secretaria e demais colaboradores com os seguintes dados: nome completo, matrícula, cpf
 
 RU4- Quero uma Agenda
-RF1- A agenda deve possibilitar e preencher o dia e horario com o medico e paciente
+RF4- A agenda deve possibilitar e preencher o dia e horario com o medico e paciente
 
-RU5
-RF5
+RU5- Quero um sistema de check-in dos pacientes
+RF5- O sisteme deve registrar a chegada do paciente atravez do cpf
+
+RU6- Quero um sistema lembrando o cliente
+RF6- O sistema deve enviar um e-mail para o paciente 10 minutos antes
+
+RU7- Quero um sistema para conferir o pagamento do cliente
+RF7- O sistema deve verificar se o pagamento foi efetuado
+
+RU8- Quero um sistema para emitir nota fiscal do pagamento do cliente
+RF8- o Sistema deve emitir nota fiscal do pagamento
+
+RU9- O sistema 
+RF9- 
+
+RU10- 
+RF10- 
 
 REQUISITOS NÃO FUNCIONAIS
 RNF1- O sistema tem que ter a cor azul
