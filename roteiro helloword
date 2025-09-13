@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    printf("Ola, Mundo!\n");
+    return 0;
+}
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+    
+    printf("Ola, Mundo!\n");
+    
+    return 0;
+}
+
+int main() {
+    float Valor2, Valor3, Total;
+    
+    Valor1 = 10.5;
+    Valor2 = 20.5;
+    Valor3 = 5.75;
+    
+    Total = Valor1 + Valor2 + Valor3;
+    printf("Total:%.2f", Total);
+    
+    return 0;
+}
