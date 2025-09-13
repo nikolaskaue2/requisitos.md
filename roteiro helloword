@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int main() {
-    printf("Ola, Mundo!\n");
+    printf("Hello Word!");
     return 0;
 }
 
@@ -24,5 +24,15 @@ int main() {
     Total = Valor1 + Valor2 + Valor3;
     printf("Total:%.2f", Total);
     
+    return 0;
+}
+
+int main() {
+    int idade;
+    
+    printf("digite sua idade: ");
+    scanf("%d", &idade);
+    
+    printf("Você tem %d anos.\n" idade);
     return 0;
 }
